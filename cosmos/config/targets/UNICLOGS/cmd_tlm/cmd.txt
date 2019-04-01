@@ -1,0 +1,99 @@
+COMMAND UNICLOGS PWR_ON BIG_ENDIAN "Power On"
+  # Keyword           Name  BitSize Type   Min Max  Default  Description
+  APPEND_ID_PARAMETER ID    16      INT    1   1    1        "Identifier"
+  APPEND_PARAMETER    VALUE 32      FLOAT  0   10.5 2.5      "Value"
+  APPEND_PARAMETER    BOOL  8       UINT   MIN MAX  0        "Boolean"
+    STATE FALSE 0
+    STATE TRUE 1
+  APPEND_PARAMETER    LABEL 0       STRING          "COSMOS" "The label to apply"
+
+COMMAND UNICLOGS VHF_TX BIG_ENDIAN "VHF Transmit Mode"
+  # Keyword           Name  BitSize Type   Min Max  Default  Description
+  APPEND_ID_PARAMETER ID    16      INT    1   1    1        "Identifier"
+  APPEND_PARAMETER    VALUE 32      FLOAT  0   10.5 2.5      "Value"
+  APPEND_PARAMETER    BOOL  8       UINT   MIN MAX  0        "Boolean"
+    STATE FALSE 0
+    STATE TRUE 1
+  APPEND_PARAMETER    LABEL 0       STRING          "COSMOS" "The label to apply"
+
+COMMAND UNICLOGS UHF_TX BIG_ENDIAN "UHF Transmit Mode"
+  # Keyword           Name  BitSize Type   Min Max  Default  Description
+  APPEND_ID_PARAMETER ID    16      INT    1   1    1        "Identifier"
+  APPEND_PARAMETER    VALUE 32      FLOAT  0   10.5 2.5      "Value"
+  APPEND_PARAMETER    BOOL  8       UINT   MIN MAX  0        "Boolean"
+    STATE FALSE 0
+    STATE TRUE 1
+  APPEND_PARAMETER    LABEL 0       STRING          "COSMOS" "The label to apply"
+
+COMMAND UNICLOGS L_TX BIG_ENDIAN "L-Band Transmit Mode"
+  # Keyword           Name  BitSize Type   Min Max  Default  Description
+  APPEND_ID_PARAMETER ID    16      INT    1   1    1        "Identifier"
+  APPEND_PARAMETER    VALUE 32      FLOAT  0   10.5 2.5      "Value"
+  APPEND_PARAMETER    BOOL  8       UINT   MIN MAX  0        "Boolean"
+    STATE FALSE 0
+    STATE TRUE 1
+  APPEND_PARAMETER    LABEL 0       STRING          "COSMOS" "The label to apply"
+
+COMMAND UNICLOGS VHF_POL BIG_ENDIAN "VHF Polarity Switch"
+  # Keyword           Name  BitSize Type   Min Max  Default  Description
+  APPEND_ID_PARAMETER ID    16      INT    1   1    1        "Identifier"
+  APPEND_PARAMETER    VALUE 32      FLOAT  0   10.5 2.5      "Value"
+  APPEND_PARAMETER    BOOL  8       UINT   MIN MAX  0        "Boolean"
+    STATE FALSE 0
+    STATE TRUE 1
+  APPEND_PARAMETER    LABEL 0       STRING          "COSMOS" "The label to apply"
+
+COMMAND UNICLOGS UHF_POL BIG_ENDIAN "UHF Polarity Switch"
+  # Keyword           Name  BitSize Type   Min Max  Default  Description
+  APPEND_ID_PARAMETER ID    16      INT    1   1    1        "Identifier"
+  APPEND_PARAMETER    VALUE 32      FLOAT  0   10.5 2.5      "Value"
+  APPEND_PARAMETER    BOOL  8       UINT   MIN MAX  0        "Boolean"
+    STATE FALSE 0
+    STATE TRUE 1
+  APPEND_PARAMETER    LABEL 0       STRING          "COSMOS" "The label to apply"
+
+COMMAND UNICLOGS VHF_PTT BIG_ENDIAN "VHF Push-To-Talk"
+  # Keyword           Name  BitSize Type   Min Max  Default  Description
+  APPEND_ID_PARAMETER ID    16      INT    1   1    1        "Identifier"
+  APPEND_PARAMETER    VALUE 32      FLOAT  0   10.5 2.5      "Value"
+  APPEND_PARAMETER    BOOL  8       UINT   MIN MAX  0        "Boolean"
+    STATE FALSE 0
+    STATE TRUE 1
+  APPEND_PARAMETER    LABEL 0       STRING          "COSMOS" "The label to apply"
+
+COMMAND UNICLOGS UHF_PTT BIG_ENDIAN "UHF Push-To-Talk"
+  # Keyword           Name  BitSize Type   Min Max  Default  Description
+  APPEND_ID_PARAMETER ID    16      INT    1   1    1        "Identifier"
+  APPEND_PARAMETER    VALUE 32      FLOAT  0   10.5 2.5      "Value"
+  APPEND_PARAMETER    BOOL  8       UINT   MIN MAX  0        "Boolean"
+    STATE FALSE 0
+    STATE TRUE 1
+  APPEND_PARAMETER    LABEL 0       STRING          "COSMOS" "The label to apply"
+
+COMMAND UNICLOGS L_PTT BIG_ENDIAN "L-Band Push-To-Talk"
+  # Keyword           Name  BitSize Type   Min Max  Default  Description
+  APPEND_ID_PARAMETER ID    16      INT    1   1    1        "Identifier"
+  APPEND_PARAMETER    VALUE 32      FLOAT  0   10.5 2.5      "Value"
+  APPEND_PARAMETER    BOOL  8       UINT   MIN MAX  0        "Boolean"
+    STATE FALSE 0
+    STATE TRUE 1
+  APPEND_PARAMETER    LABEL 0       STRING          "COSMOS" "The label to apply"
+
+COMMAND UNICLOGS SHUTDOWN BIG_ENDIAN "Shutdown Transmission"
+  # Keyword           Name  BitSize Type   Min Max  Default  Description
+  APPEND_ID_PARAMETER ID    16      INT    1   1    1        "Identifier"
+  APPEND_PARAMETER    VALUE 32      FLOAT  0   10.5 2.5      "Value"
+  APPEND_PARAMETER    BOOL  8       UINT   MIN MAX  0        "Boolean"
+    STATE FALSE 0
+    STATE TRUE 1
+  APPEND_PARAMETER    LABEL 0       STRING          "COSMOS" "The label to apply"
+
+COMMAND UNICLOGS KILL BIG_ENDIAN "Emergency System Kill"
+  # Keyword           Name  BitSize Type   Min Max  Default  Description
+  APPEND_ID_PARAMETER ID    16      INT    1   1    1        "Identifier"
+  APPEND_PARAMETER    VALUE 32      FLOAT  0   10.5 2.5      "Value"
+  APPEND_PARAMETER    BOOL  8       UINT   MIN MAX  0        "Boolean"
+    STATE FALSE 0
+    STATE TRUE 1
+  APPEND_PARAMETER    LABEL 0       STRING          "COSMOS" "The label to apply"
+

@@ -2,6 +2,10 @@ COMMAND UNICLOGS PWR_ON BIG_ENDIAN "Power On"
   # Keyword           Name  BitSize Type   Min Max  Default  Description
   APPEND_PARAMETER    CMD   0       STRING          "PWR_ON" "Power On String"
 
+COMMAND UNICLOGS RX BIG_ENDIAN "Receive Only Mode"
+  # Keyword           Name  BitSize Type   Min Max  Default  Description
+  APPEND_PARAMETER    CMD   0       STRING          "RX"     "Receive String"
+
 COMMAND UNICLOGS VHF_TX BIG_ENDIAN "VHF Transmit Mode"
   # Keyword           Name  BitSize Type   Min Max  Default  Description
   APPEND_PARAMETER    CMD   0       STRING          "V_TX"   "VHF Transmit String"
